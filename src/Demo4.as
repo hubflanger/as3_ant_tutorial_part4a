@@ -1,0 +1,1 @@
+package{	import flash.display.*;	public class Demo4 extends Sprite 	{		private var square:Square;				public function Demo4()		{			square = new Square();			square.x = 200;			square.y = 100;			addChild( square );		}	}}
